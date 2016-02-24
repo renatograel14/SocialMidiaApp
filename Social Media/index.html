@@ -10,11 +10,18 @@
     <script src="cordova.js"></script>
     <script src="kendo/js/jquery.min.js"></script>
     <script src="kendo/js/kendo.mobile.min.js"></script>
+    <script src="facebook.js"></script>
+    <script src="identity-provider.js"></script>
     <script src="app.js"></script>
+    <script src="bower_components/everlive/min/everlive.all.min.js"></script>
+    <script src="dataProviders/socialMedia.js"></script>
 </head>
 
 <body id="kendoUiMobileApp">
+    <script src="components/aboutView/index.js"></script>
     <script src="components/home/index.js"></script>
+    
+    
     <div data-role="layout" data-id="main">
         <header data-role="header">
             <div data-role="navbar">
@@ -26,7 +33,7 @@
 
         <footer data-role="footer">
             <div data-role="tabstrip" id="navigation-container">
-                <a href="components/home/view.html" data-icon="home">Home View</a>
+                <a href="components/aboutView/view.html" data-icon="info">About</a>
             </div>
         </footer>
     </div>
